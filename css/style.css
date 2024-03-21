@@ -1,0 +1,99 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    border: 1px solid black;
+    border-radius: 22px;
+    padding: 10px;
+}
+
+.background {
+    background-image: url(/assets/20240320_0001.jpg);
+    height: 500px;
+}
+
+.background .container {
+    color: white;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+important:hover {
+    color: red;
+}
+.acerca-de{
+    margin-top: 1%;
+    display:inline-block;
+}
+.acerca-de .container{
+    margin-left: 50%;
+    margin-top: -42%;
+    width: 1000px;
+    font-size: 25px;
+}
+
+.diplomas-certificados{
+    margin-left: 2%;
+}
+.diplomas img{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.icons i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.icons .fa-brands,a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+.icons .fa-brands:hover{
+    color: blue;
+    font-size: 50px;
+    
+}
+
+.conctatame h2{
+    margin-left: 42%;
+    margin-top: 6%;
+}
+
+.conctatame .formulario{
+    margin-right: 20%;
+    margin-left: 23%;
+}
+footer{
+    margin-top: 2%;
+}
+.contenido{
+    color: white;
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+
+footer .correo{
+    margin-left: 1%;
+}
+.correo a{
+    font-size: 20px;
+    
+}
+footer{
+    padding-bottom: 3%;
+}
+.correo a:hover{
+    color: red;
+    
+}
