@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio personal</title>
-    
+
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-telefono.css">
+    <script src="https://kit.fontawesome.com/357aae614a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,13 +28,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Acerca de mi</a>
+                                <a class="nav-link" href="#acerca">Acerca de mi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Diplomas y certificados</a>
+                                <a class="nav-link" href="#Diplomas">Diplomas y certificados</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contactame</a>
+                                <a class="nav-link" href="#Contactame">Contactame</a>
                             </li>
                         </ul>
                     </div>
@@ -42,39 +44,128 @@
     </header>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <section class="background">\
-        
+
         <div class="container">
             <center>
-            Bienvenidos a mi portafolio personal
-            <br>
-            Mi nombre es Carlos Alberto
-            <br>
-            <important>
-                Soy programador Junior
-            </important>
-        </center>
+                Bienvenidos a mi portafolio personal
+                <br>
+                Mi nombre es Carlos Alberto
+                <br>
+                <important>
+                    Soy programador Junior
+                </important>
+                <br>
+                <div class="icons">
+                    <a href="https://github.com/CallmeCarlos503">
+                        <i class="fa-brands fa-github">
+
+                        </i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100090446640040">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/strangerofparadise503/?next=%2F">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/+50371680706">
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+                </div>
+            </center>
         </div>
     </section>
-    <section class="acerca-de">
+    <section class="acerca-de" id="acerca">
+        <div class="titulo">
+            <h2 style="margin-left: 50%; margin-top:2%">
+                <center>
+                    ACERCA DE MI
+                </center>
+            </h2>
+        </div>
         <div class="imagen">
-            <img src="./assets/perfil.jpeg" alt="" srcset="" class="img-perfil" width="400px" height="440px" style="margin-left: 3%;">
+            <img src="./assets/perfil.jpeg" alt="" srcset="" class="img-perfil" width="380px" height="440px"
+                style="margin-left: 3%; margin-bottom:1%">
         </div>
         <div class="movimiento">
             <p class="container">
-                Estudiante egresado de la Universidad Tecnologica de El Salvador,  en la carrera de Licenciatura en informatica 
+                Estudiante egresado de la Universidad Tecnologica de El Salvador, en la carrera de Licenciatura en
+                informatica
                 en proceso de aprendizaje en el area de pre-especialidad en la innovacion tecnologica 4.0. <br> <br>
-    
-                Me gusta, programar en diferentes idiomas en php, html como lenguaje de hipertexto, flutter como un multiplataformas
+
+                Me gusta, programar en diferentes idiomas en php, html como lenguaje de hipertexto, flutter como un
+                multiplataformas
                 viable al concepto de las necesidades actuales.
                 <br> <br>
                 Administro base de datos y poseo un amplio conocimientos en Mysql y SQL Server.
             </p>
         </div>
-        
+
     </section>
-    <section class="diplomas-certificados">
-        
+    <section class="diplomas-certificados" id="Diplomas">
+        <center>
+            <br> <br>
+            <h2>DIPLOMAS Y CERTIFICADOS</h2>
+            <div class="diplomas">
+                <img src="./assets/diplomas/certificado.jpeg" width="350px" height="250px" alt="" srcset="">
+                <img src="./assets/diplomas/diploma2.jpeg" width="350px" height="250px" alt="" srcset="">
+                <img src="./assets/diplomas/diploma3.jpeg" width="350px" height="250px" alt="" srcset="">
+                <br>
+                <img src="./assets/diplomas/diploma4.jpg" width="350px" height="250px" alt="" srcset="">
+                <img src="./assets/diplomas/diplomas.jpeg" width="350px" height="250px" alt="" srcset="">
+
+            </div>
+        </center>
     </section>
+    <section class="conctatame">
+        <h2>CONTACTAME</h2>
+        <div class="formulario">
+            <form action="" id="Contactame">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <center>
+                    <input type="submit" value="Enviar formulario" class="btn btn-primary">
+                </center>
+
+            </form>
+
+        </div>
+    </section>
+    <footer style="background-color: black;">
+        <div class="contenido">
+            <div class="name">
+                <b>
+                    Carlos Alberto Sanchez Castillo
+    
+                </b>
+            </div>
+            <div class="icons">
+                <a href="https://github.com/CallmeCarlos503">
+                    <i class="fa-brands fa-github">
+
+                    </i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100090446640040">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/strangerofparadise503/?next=%2F">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://wa.me/+50371680706">
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>

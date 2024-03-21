@@ -1,0 +1,72 @@
+@media (max-width: 480px) {
+    .icons .fa-brands{
+        color: white;
+        font-size: 38px;
+        margin-top: 10px;
+        
+    }
+    .conctatame h2{
+        margin-left: 36%;
+        margin-top: 7%;
+    }
+
+
+    .background .container {
+        font-size: 20px;
+
+    }
+
+    .background {
+        height: 300px;
+        margin-left: -10%;
+    }
+    .acerca-de{
+        margin-top: 1%;
+        display:block;
+    }
+    
+    important:hover {
+        color: red;
+    }
+    .img-perfil{
+        height: 200px;
+        width: 190px;
+    }
+    .imagen{
+        margin-left: 23%;
+        margin-top: 2%;
+    }
+    .acerca-de .container{
+       margin-top: 3%;
+       margin-right: 10%;
+       font-size: 12px;
+       margin-left: -5;
+       width: 290px;
+    }
+    .movimiento{
+        margin-right: 65%;
+        margin-top: 5%;
+    }
+    .titulo {
+        margin-right: 120px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .imagen{
+        margin-left: 27%;
+    }
+    .imagen img{
+        width: 160px;
+
+    }
+    .diplomas img{
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+    .contenido{
+        color: white;
+        margin-left: 13%;
+        padding-top: 10px;
+    }
+    
+}
