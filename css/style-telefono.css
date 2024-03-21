@@ -9,11 +9,10 @@
         margin-left: 36%;
         margin-top: 7%;
     }
-
-
+    
     .background .container {
         font-size: 20px;
-
+        width: auto;
     }
 
     .background {
@@ -68,5 +67,14 @@
         margin-left: 13%;
         padding-top: 10px;
     }
-    
+    footer .correo{
+        margin-left: 7%;
+    }
+    .correo a{
+        font-size: 17px;
+        
+        font-style: italic;
+    }
+
+
 }

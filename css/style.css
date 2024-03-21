@@ -83,3 +83,17 @@ footer{
 }
 
 
+footer .correo{
+    margin-left: 1%;
+}
+.correo a{
+    font-size: 20px;
+    
+}
+footer{
+    padding-bottom: 3%;
+}
+.correo a:hover{
+    color: red;
+    
+}
