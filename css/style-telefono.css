@@ -92,7 +92,11 @@
 
 }
 
+<<<<<<< HEAD
 @media (max-width: 1080px) and (min-height:810px) {
+=======
+@media (max-width: 1080px) {
+>>>>>>> 4c78ccdf94266729176fee740f3393dbfb40a4c3
     .acerca-de .container {
         margin-top: 3%;
         margin-right: 10%;
@@ -127,6 +131,7 @@ margin-bottom: 3%;
         font-size: calc(1.325rem + .9vw);
         width: 443px;
     }
+<<<<<<< HEAD
 }
 
 @media (min-width: 1280px) and (min-height: 800px)  {
@@ -164,4 +169,6 @@ margin-bottom: 3%;
         font-size: calc(1.325rem + .9vw);
         width: 443px;
     }
+=======
+>>>>>>> 4c78ccdf94266729176fee740f3393dbfb40a4c3
 }
