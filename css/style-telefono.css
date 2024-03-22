@@ -1,15 +1,16 @@
 @media (max-width: 480px) {
-    .icons .fa-brands{
+    .icons .fa-brands {
         color: white;
         font-size: 38px;
         margin-top: 10px;
-        
+
     }
-    .conctatame h2{
+
+    .conctatame h2 {
         margin-left: 36%;
         margin-top: 7%;
     }
-    
+
     .background .container {
         font-size: 20px;
         width: auto;
@@ -19,62 +20,111 @@
         height: 300px;
         margin-left: -10%;
     }
-    .acerca-de{
+
+    .acerca-de {
         margin-top: 1%;
-        display:block;
+        display: block;
     }
-    
+
     important:hover {
         color: red;
     }
-    .img-perfil{
+
+    .img-perfil {
         height: 200px;
         width: 190px;
     }
-    .imagen{
+
+    .imagen {
         margin-left: 23%;
         margin-top: 2%;
     }
-    .acerca-de .container{
-       margin-top: 3%;
-       margin-right: 10%;
-       font-size: 12px;
-       margin-left: -5;
-       width: 290px;
+
+    .acerca-de .container {
+        margin-top: 3%;
+        margin-right: 10%;
+        font-size: 12px;
+        margin-left: -5;
+        width: 290px;
     }
-    .movimiento{
+
+    .movimiento {
         margin-right: 65%;
         margin-top: 5%;
     }
+
     .titulo {
         margin-right: 120px;
         margin-top: 5%;
         margin-bottom: 2%;
     }
-    .imagen{
+
+    .imagen {
         margin-left: 27%;
     }
-    .imagen img{
+
+    .imagen img {
         width: 160px;
 
     }
-    .diplomas img{
+
+    .diplomas img {
         margin-top: 5%;
         margin-right: 2%;
     }
-    .contenido{
+
+    .contenido {
         color: white;
         margin-left: 13%;
         padding-top: 10px;
     }
-    footer .correo{
+
+    footer .correo {
         margin-left: 7%;
     }
-    .correo a{
+
+    .correo a {
         font-size: 17px;
-        
+
         font-style: italic;
     }
 
 
+}
+
+@media (max-width: 1080px) {
+    .acerca-de .container {
+        margin-top: 3%;
+        margin-right: 10%;
+        font-size: 16px;
+        margin-left: 241px;
+        width: 733px;
+    }
+
+    .movimiento {
+        margin-right: 65%;
+        margin-top: 5%;
+    }
+
+    .acerca-de .imagen {
+        margin-left: 31%;
+    }
+
+    .titulo {
+
+        margin-top: 5%;
+        margin-right: 432px;
+margin-bottom: 3%;
+    }
+
+    .acerca-de {
+        margin-top: 1%;
+        display: inline;
+        width: 513px;
+    }
+
+    h2 {
+        font-size: calc(1.325rem + .9vw);
+        width: 443px;
+    }
 }
